@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"  >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal" 
+    android:weightSum="2" 
+    android:layout_weight="1"   >
+    <Button
+        android:id="@+id/addt"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:onClick="add1"
+        android:text="Add Type"
+        android:layout_weight="1"  />
+    <Button
+        android:id="@+id/removet"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:onClick="remove1"
+        android:text="Remove Type"
+        android:layout_weight="1" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal" 
+    android:weightSum="2" 
+    android:layout_weight="1"   >
+    <Button
+        android:id="@+id/adds"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:onClick="add2"
+        android:text="Add Store"
+         android:layout_weight="1"  />
+    <Button
+        android:id="@+id/removes"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:onClick="remove2"
+        android:text="Remove Store"
+        android:layout_weight="1" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal" 
+    android:weightSum="2" 
+    android:layout_weight="1"   >
+    <Button
+        android:id="@+id/addr"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:onClick="recieptmaker"
+        android:text="Add Reciept to Database"
+        android:layout_weight="1"  />
+    <Button
+        android:id="@+id/view"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:onClick="viewer"
+        android:text="View Database"
+        android:layout_weight="1" />
+</LinearLayout>
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/David/SkyDrive/AndroidStudioProjects/EasyReceiptManager/app/src/main/res/layout/activity_main.xml -->
